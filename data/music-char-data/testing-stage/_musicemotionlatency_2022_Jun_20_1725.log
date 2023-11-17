@@ -1,0 +1,44 @@
+0.8407 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+6.8776 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7f9781354c18>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7f977f16ca58>, multiSample=False, name='window1', numSamples=2, pos=[540.0, 325.0], screen=0, size=array([2400, 1600]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+6.8778 	EXP 	window1: mouseVisible = True
+6.8778 	EXP 	window1: recordFrameIntervals = False
+7.0417 	EXP 	window1: recordFrameIntervals = True
+7.2262 	EXP 	window1: recordFrameIntervals = False
+8.1604 	EXP 	Created starttext = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='starttext', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.1668 	EXP 	Created russellsQuad = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='russellsQuad', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.9, 0.9]), texRes=128.0, units='height', win=Window(...))
+8.8168 	EXP 	Sound music set volume 1.000
+8.8171 	EXP 	window1: mouseVisible = True
+8.8200 	EXP 	Created musictext = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='musictext', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.8248 	EXP 	Created fixCross = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='fixCross', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+8.8285 	EXP 	Created goodbyetext = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='goodbyetext', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Terminado.', units='height', win=Window(...), wrapWidth=1)
+8.8448 	EXP 	starttext: autoDraw = True
+10.8388 	EXP 	Created sequence: random, trialTypes=1, nReps=2, seed=None
+10.8390 	EXP 	New trial (rep=0, index=0): None
+10.9736 	EXP 	starttext: autoDraw = False
+10.9736 	EXP 	russellsQuad: image = 'musiclatency/data/Russells-emotion-model.jpg'
+10.9736 	EXP 	musictext: text = ''
+10.9736 	EXP 	russellsQuad: autoDraw = True
+10.9736 	EXP 	musictext: autoDraw = True
+15.1382 	DATA 	Mouse: Left button down, pos=(780,586)
+15.1538 	EXP 	russellsQuad: autoDraw = False
+15.1538 	EXP 	musictext: autoDraw = False
+15.1538 	EXP 	fixCross: autoDraw = True
+15.2896 	DATA 	Mouse:  Left button up, pos=(780,586)
+17.1389 	EXP 	New trial (rep=1, index=0): None
+17.2316 	EXP 	fixCross: autoDraw = False
+17.2316 	EXP 	fixCross: autoDraw = False
+17.2316 	EXP 	russellsQuad: image = 'musiclatency/data/Russells-emotion-model.jpg'
+17.2316 	EXP 	musictext: text = ''
+17.2316 	EXP 	russellsQuad: autoDraw = True
+17.2316 	EXP 	musictext: autoDraw = True
+21.4260 	DATA 	Mouse: Left button down, pos=(800,530)
+21.4418 	EXP 	russellsQuad: autoDraw = False
+21.4418 	EXP 	musictext: autoDraw = False
+21.4418 	EXP 	fixCross: autoDraw = True
+21.5107 	DATA 	Mouse:  Left button up, pos=(800,530)
+23.4422 	EXP 	fixCross: autoDraw = False
+23.4422 	EXP 	fixCross: autoDraw = False
+23.4422 	EXP 	goodbyetext: autoDraw = True
+25.4420 	EXP 	goodbyetext: autoDraw = False
+25.4420 	EXP 	goodbyetext: autoDraw = False
+25.4497 	EXP 	window1: mouseVisible = True

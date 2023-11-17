@@ -1,0 +1,4 @@
+﻿trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,starttext.started,starttext.stopped,russellsQuad.started,russellsQuad.stopped,music.started,music.stopped,mouse.x,mouse.y,mouse.leftButton,mouse.midButton,mouse.rightButton,mouse.time,mouse.started,mouse.stopped,musictext.started,musictext.stopped,goodbyetext.started,goodbyetext.stopped,participant,session,date,expName,psychopyVersion,frameRate,
+0,0,0,0,8.1052325359924,None,10.113012075300503,None,10.113012075300503,None,[],[],[],[],[],[],0.013479573288350366,None,10.113012075300503,None,,,,001,2022_Jun_20_1702,musicemotionlatency,2021.2.3,60.03530063593295,
+1,0,1,0,,,10.113012075300503,None,10.113012075300503,None,[],[],[],[],[],[],0.00523871231416706,None,10.113012075300503,None,,,,001,2022_Jun_20_1702,musicemotionlatency,2021.2.3,60.03530063593295,
+,,,,,,,,,,,,,,,,,,,,10.119816489997902,None,,,,,,,

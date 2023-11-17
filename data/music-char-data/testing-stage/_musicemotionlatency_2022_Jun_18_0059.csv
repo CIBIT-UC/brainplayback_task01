@@ -1,0 +1,3 @@
+﻿trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,starttext.started,starttext.stopped,russellsQuad.started,russellsQuad.stopped,music.started,music.stopped,mouse.x,mouse.y,mouse.leftButton,mouse.midButton,mouse.rightButton,mouse.started,mouse.stopped,participant,session,date,expName,psychopyVersion,frameRate,
+0,0,0,0,13.204129435995128,None,18.23607582799741,None,18.2382226517977,None,0.23809523809523808,0.11904761904761904,1,0,0,0.014641532805399038,None,,001,2022_Jun_18_0059,musicemotionlatency,2021.2.3,60.41525385808434,
+1,0,1,0,,,25.039903326993226,None,25.035318081392326,None,0.2838095238095238,0.017142857142857144,1,0,0,0.007601421399158426,None,,001,2022_Jun_18_0059,musicemotionlatency,2021.2.3,60.41525385808434,

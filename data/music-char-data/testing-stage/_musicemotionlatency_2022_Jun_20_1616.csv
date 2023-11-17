@@ -1,0 +1,4 @@
+﻿trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,starttext.started,starttext.stopped,russellsQuad.started,russellsQuad.stopped,music.started,music.stopped,goodbyetext.started,goodbyetext.stopped,participant,session,date,expName,psychopyVersion,frameRate,
+0,0,0,0,9.116747537991614,None,None,None,None,None,,,,001,2022_Jun_20_1616,musicemotionlatency,2021.2.3,59.92508824702008,
+1,0,1,0,,,None,None,None,None,,,,001,2022_Jun_20_1616,musicemotionlatency,2021.2.3,59.92508824702008,
+,,,,,,,,,,11.126577657996677,None,,,,,,,

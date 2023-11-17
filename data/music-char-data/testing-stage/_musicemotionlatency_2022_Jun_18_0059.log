@@ -1,0 +1,32 @@
+1.1691 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+10.5659 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1680, 1050]. Using actual size
+11.4776 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7feff18e5ac8>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7ff00d9135f8>, multiSample=False, name='window1', numSamples=2, pos=[420.0, 262.5], screen=0, size=array([3360, 2100]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+11.4780 	EXP 	window1: mouseVisible = True
+11.4780 	EXP 	window1: recordFrameIntervals = False
+11.6436 	EXP 	window1: recordFrameIntervals = True
+11.8263 	EXP 	window1: recordFrameIntervals = False
+13.0059 	EXP 	Created starttext = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='starttext', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+13.0061 	EXP 	window1: mouseVisible = True
+13.0098 	EXP 	Created russellsQuad = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image=None, interpolate=True, mask=None, maskParams=None, name='russellsQuad', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+13.1658 	EXP 	Sound music set volume 1.000
+13.1664 	EXP 	window1: mouseVisible = True
+13.1805 	EXP 	Created goodbyetext = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='goodbyetext', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Any text\n\nincluding line breaks', units='height', win=Window(...), wrapWidth=1)
+13.2041 	EXP 	starttext: autoDraw = True
+18.2124 	EXP 	Created sequence: random, trialTypes=1, nReps=2, seed=None
+18.2137 	EXP 	New trial (rep=0, index=0): None
+18.2361 	EXP 	starttext: autoDraw = False
+18.2361 	EXP 	russellsQuad: autoDraw = True
+22.6412 	DATA 	Mouse: Left button down, pos=(1088,626)
+22.6423 	DATA 	Mouse:  Left button up, pos=(1088,626)
+25.0061 	DATA 	Mouse: Left button down, pos=(1090,650)
+25.0258 	EXP 	New trial (rep=1, index=0): None
+25.0399 	EXP 	russellsQuad: autoDraw = False
+25.0399 	EXP 	russellsQuad: autoDraw = True
+25.2268 	DATA 	Mouse:  Left button up, pos=(840,525)
+27.3214 	DATA 	Mouse: Left button down, pos=(1138,543)
+27.3494 	EXP 	russellsQuad: autoDraw = False
+27.3494 	EXP 	goodbyetext: autoDraw = True
+27.5088 	DATA 	Mouse:  Left button up, pos=(1138,543)
+29.0208 	DATA 	Mouse: Left button down, pos=(1138,543)
+29.1483 	DATA 	Mouse:  Left button up, pos=(1138,543)
+41.9750 	EXP 	window1: mouseVisible = True

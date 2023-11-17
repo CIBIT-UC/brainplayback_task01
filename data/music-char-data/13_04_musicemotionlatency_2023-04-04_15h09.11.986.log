@@ -1,0 +1,262 @@
+1.3222 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+10.3240 	WARNING 	User requested fullscreen with size [1680 1050], but screen is actually [1920, 1080]. Using actual size
+11.2231 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001AABD8B50A0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001AABDAE0A60>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+11.2234 	EXP 	window1: mouseVisible = True
+11.2234 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+11.2235 	EXP 	window1: recordFrameIntervals = False
+11.3895 	EXP 	window1: recordFrameIntervals = True
+11.5729 	EXP 	Screen (0) actual frame rate measured at 60.01Hz
+11.5729 	EXP 	window1: recordFrameIntervals = False
+13.4084 	EXP 	Created starttext = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='starttext', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+13.4139 	EXP 	Created russellsQuad = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='russellsQuad', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.9, 0.9]), texRes=128.0, units='height', win=Window(...))
+13.4290 	EXP 	Sound music set volume 1.000
+13.4291 	EXP 	window1: mouseVisible = True
+13.4338 	EXP 	Created fixCross = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='fixCross', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+13.4375 	EXP 	Created goodbyetext = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='goodbyetext', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Terminado.', units='height', win=Window(...), wrapWidth=1)
+13.5497 	EXP 	starttext: autoDraw = True
+15.4411 	EXP 	Created sequence: random, trialTypes=1, nReps=24, seed=None
+15.4413 	EXP 	New trial (rep=0, index=0): None
+16.2421 	EXP 	starttext: autoDraw = False
+16.2421 	EXP 	russellsQuad: image = 'Russells-emotion-model.jpg'
+16.2421 	EXP 	russellsQuad: autoDraw = True
+28.6242 	DATA 	Mouse: Left button down, pos=(890,197)
+28.6245 	DATA 	[-0.06481481 -0.3175926 ]
+28.6399 	EXP 	russellsQuad: autoDraw = False
+28.6399 	EXP 	fixCross: autoDraw = True
+28.7077 	DATA 	Mouse:  Left button up, pos=(890,197)
+30.6240 	EXP 	New trial (rep=1, index=0): None
+30.9244 	EXP 	fixCross: autoDraw = False
+30.9244 	EXP 	fixCross: autoDraw = False
+30.9244 	EXP 	russellsQuad: image = 'Russells-emotion-model.jpg'
+30.9244 	EXP 	russellsQuad: autoDraw = True
+70.6592 	DATA 	Mouse: Left button down, pos=(901,491)
+70.6594 	DATA 	[-0.05462963 -0.04537037]
+70.6754 	EXP 	russellsQuad: autoDraw = False
+70.6754 	EXP 	fixCross: autoDraw = True
+70.8266 	DATA 	Mouse:  Left button up, pos=(901,491)
+72.6595 	EXP 	New trial (rep=2, index=0): None
+72.9088 	EXP 	fixCross: autoDraw = False
+72.9088 	EXP 	fixCross: autoDraw = False
+72.9088 	EXP 	russellsQuad: image = 'Russells-emotion-model.jpg'
+72.9088 	EXP 	russellsQuad: autoDraw = True
+79.6268 	DATA 	Mouse: Left button down, pos=(1061,452)
+79.6270 	DATA 	[ 0.09351852 -0.08148148]
+79.6424 	EXP 	russellsQuad: autoDraw = False
+79.6424 	EXP 	fixCross: autoDraw = True
+79.7774 	DATA 	Mouse:  Left button up, pos=(1062,451)
+81.6264 	EXP 	New trial (rep=3, index=0): None
+81.8757 	EXP 	fixCross: autoDraw = False
+81.8757 	EXP 	fixCross: autoDraw = False
+81.8757 	EXP 	russellsQuad: image = 'Russells-emotion-model.jpg'
+81.8757 	EXP 	russellsQuad: autoDraw = True
+86.5267 	DATA 	Mouse: Left button down, pos=(677,806)
+86.5269 	DATA 	[-0.26203704  0.2462963 ]
+86.5426 	EXP 	russellsQuad: autoDraw = False
+86.5426 	EXP 	fixCross: autoDraw = True
+86.6275 	DATA 	Mouse:  Left button up, pos=(677,806)
+88.5266 	EXP 	New trial (rep=4, index=0): None
+88.7759 	EXP 	fixCross: autoDraw = False
+88.7759 	EXP 	fixCross: autoDraw = False
+88.7759 	EXP 	russellsQuad: image = 'Russells-emotion-model.jpg'
+88.7759 	EXP 	russellsQuad: autoDraw = True
+103.1594 	DATA 	Mouse: Left button down, pos=(902,632)
+103.1596 	DATA 	[-0.0537037   0.08518519]
+103.1756 	EXP 	russellsQuad: autoDraw = False
+103.1756 	EXP 	fixCross: autoDraw = True
+103.2434 	DATA 	Mouse:  Left button up, pos=(902,632)
+105.1603 	EXP 	New trial (rep=5, index=0): None
+105.4097 	EXP 	fixCross: autoDraw = False
+105.4097 	EXP 	fixCross: autoDraw = False
+105.4097 	EXP 	russellsQuad: image = 'Russells-emotion-model.jpg'
+105.4097 	EXP 	russellsQuad: autoDraw = True
+107.0270 	DATA 	Mouse: Left button down, pos=(654,863)
+107.0272 	DATA 	[-0.28333333  0.29907408]
+107.0431 	EXP 	russellsQuad: autoDraw = False
+107.0431 	EXP 	fixCross: autoDraw = True
+107.1277 	DATA 	Mouse:  Left button up, pos=(654,863)
+109.0272 	EXP 	New trial (rep=6, index=0): None
+109.2765 	EXP 	fixCross: autoDraw = False
+109.2765 	EXP 	fixCross: autoDraw = False
+109.2765 	EXP 	russellsQuad: image = 'Russells-emotion-model.jpg'
+109.2765 	EXP 	russellsQuad: autoDraw = True
+121.7094 	DATA 	Mouse: Left button down, pos=(847,311)
+121.7096 	DATA 	[-0.10462963 -0.21203704]
+121.7257 	EXP 	russellsQuad: autoDraw = False
+121.7257 	EXP 	fixCross: autoDraw = True
+121.8440 	DATA 	Mouse:  Left button up, pos=(847,311)
+123.7098 	EXP 	New trial (rep=7, index=0): None
+123.9602 	EXP 	fixCross: autoDraw = False
+123.9602 	EXP 	fixCross: autoDraw = False
+123.9602 	EXP 	russellsQuad: image = 'Russells-emotion-model.jpg'
+123.9602 	EXP 	russellsQuad: autoDraw = True
+129.4275 	DATA 	Mouse: Left button down, pos=(1182,422)
+129.4277 	DATA 	[ 0.20555556 -0.10925926]
+129.4437 	EXP 	russellsQuad: autoDraw = False
+129.4437 	EXP 	fixCross: autoDraw = True
+129.5281 	DATA 	Mouse:  Left button up, pos=(1182,422)
+131.4277 	EXP 	New trial (rep=8, index=0): None
+131.6771 	EXP 	fixCross: autoDraw = False
+131.6771 	EXP 	fixCross: autoDraw = False
+131.6771 	EXP 	russellsQuad: image = 'Russells-emotion-model.jpg'
+131.6771 	EXP 	russellsQuad: autoDraw = True
+145.0945 	DATA 	Mouse: Left button down, pos=(739,893)
+145.0947 	DATA 	[-0.20462963  0.32685184]
+145.1108 	EXP 	russellsQuad: autoDraw = False
+145.1108 	EXP 	fixCross: autoDraw = True
+145.2118 	DATA 	Mouse:  Left button up, pos=(739,893)
+147.0948 	EXP 	New trial (rep=9, index=0): None
+147.3441 	EXP 	fixCross: autoDraw = False
+147.3441 	EXP 	fixCross: autoDraw = False
+147.3441 	EXP 	russellsQuad: image = 'Russells-emotion-model.jpg'
+147.3441 	EXP 	russellsQuad: autoDraw = True
+159.7786 	DATA 	Mouse: Left button down, pos=(905,821)
+159.7789 	DATA 	[-0.05092593  0.26018518]
+159.7945 	EXP 	russellsQuad: autoDraw = False
+159.7945 	EXP 	fixCross: autoDraw = True
+159.8462 	DATA 	Mouse:  Left button up, pos=(905,821)
+161.7786 	EXP 	New trial (rep=10, index=0): None
+162.0445 	EXP 	fixCross: autoDraw = False
+162.0445 	EXP 	fixCross: autoDraw = False
+162.0445 	EXP 	russellsQuad: image = 'Russells-emotion-model.jpg'
+162.0445 	EXP 	russellsQuad: autoDraw = True
+167.3288 	DATA 	Mouse: Left button down, pos=(1186,777)
+167.3290 	DATA 	[0.20925926 0.21944444]
+167.3447 	EXP 	russellsQuad: autoDraw = False
+167.3447 	EXP 	fixCross: autoDraw = True
+167.3963 	DATA 	Mouse:  Left button up, pos=(1186,777)
+169.3288 	EXP 	New trial (rep=11, index=0): None
+169.6281 	EXP 	fixCross: autoDraw = False
+169.6281 	EXP 	fixCross: autoDraw = False
+169.6281 	EXP 	russellsQuad: image = 'Russells-emotion-model.jpg'
+169.6281 	EXP 	russellsQuad: autoDraw = True
+180.7792 	DATA 	Mouse: Left button down, pos=(1011,781)
+180.7794 	DATA 	[0.04722222 0.22314815]
+180.7951 	EXP 	russellsQuad: autoDraw = False
+180.7951 	EXP 	fixCross: autoDraw = True
+180.9129 	DATA 	Mouse:  Left button up, pos=(1011,781)
+182.7791 	EXP 	New trial (rep=12, index=0): None
+183.0451 	EXP 	fixCross: autoDraw = False
+183.0451 	EXP 	fixCross: autoDraw = False
+183.0451 	EXP 	russellsQuad: image = 'Russells-emotion-model.jpg'
+183.0451 	EXP 	russellsQuad: autoDraw = True
+198.1796 	DATA 	Mouse: Left button down, pos=(998,767)
+198.1798 	DATA 	[0.03518518 0.21018519]
+198.1955 	EXP 	russellsQuad: autoDraw = False
+198.1955 	EXP 	fixCross: autoDraw = True
+198.2967 	DATA 	Mouse:  Left button up, pos=(998,767)
+200.1796 	EXP 	New trial (rep=13, index=0): None
+200.4457 	EXP 	fixCross: autoDraw = False
+200.4457 	EXP 	fixCross: autoDraw = False
+200.4457 	EXP 	russellsQuad: image = 'Russells-emotion-model.jpg'
+200.4457 	EXP 	russellsQuad: autoDraw = True
+207.7633 	DATA 	Mouse: Left button down, pos=(897,814)
+207.7635 	DATA 	[-0.05833333  0.2537037 ]
+207.7791 	EXP 	russellsQuad: autoDraw = False
+207.7791 	EXP 	fixCross: autoDraw = True
+207.8802 	DATA 	Mouse:  Left button up, pos=(897,814)
+209.7631 	EXP 	New trial (rep=14, index=0): None
+210.0459 	EXP 	fixCross: autoDraw = False
+210.0459 	EXP 	fixCross: autoDraw = False
+210.0459 	EXP 	russellsQuad: image = 'Russells-emotion-model.jpg'
+210.0459 	EXP 	russellsQuad: autoDraw = True
+215.2132 	DATA 	Mouse: Left button down, pos=(867,345)
+215.2134 	DATA 	[-0.08611111 -0.18055555]
+215.2293 	EXP 	russellsQuad: autoDraw = False
+215.2293 	EXP 	fixCross: autoDraw = True
+215.3306 	DATA 	Mouse:  Left button up, pos=(867,345)
+217.2135 	EXP 	New trial (rep=15, index=0): None
+217.5294 	EXP 	fixCross: autoDraw = False
+217.5294 	EXP 	fixCross: autoDraw = False
+217.5294 	EXP 	russellsQuad: image = 'Russells-emotion-model.jpg'
+217.5294 	EXP 	russellsQuad: autoDraw = True
+230.0302 	DATA 	Mouse: Left button down, pos=(795,216)
+230.0304 	DATA 	[-0.15277778 -0.3       ]
+230.0464 	EXP 	russellsQuad: autoDraw = False
+230.0464 	EXP 	fixCross: autoDraw = True
+230.1475 	DATA 	Mouse:  Left button up, pos=(795,216)
+232.0306 	EXP 	New trial (rep=16, index=0): None
+232.2798 	EXP 	fixCross: autoDraw = False
+232.2798 	EXP 	fixCross: autoDraw = False
+232.2798 	EXP 	russellsQuad: image = 'Russells-emotion-model.jpg'
+232.2798 	EXP 	russellsQuad: autoDraw = True
+245.3143 	DATA 	Mouse: Left button down, pos=(704,485)
+245.3145 	DATA 	[-0.23703703 -0.05092593]
+245.3301 	EXP 	russellsQuad: autoDraw = False
+245.3301 	EXP 	fixCross: autoDraw = True
+245.4313 	DATA 	Mouse:  Left button up, pos=(704,485)
+247.3141 	EXP 	New trial (rep=17, index=0): None
+247.5802 	EXP 	fixCross: autoDraw = False
+247.5802 	EXP 	fixCross: autoDraw = False
+247.5802 	EXP 	russellsQuad: image = 'Russells-emotion-model.jpg'
+247.5802 	EXP 	russellsQuad: autoDraw = True
+260.2146 	DATA 	Mouse: Left button down, pos=(1087,180)
+260.2148 	DATA 	[ 0.1175926  -0.33333334]
+260.2305 	EXP 	russellsQuad: autoDraw = False
+260.2305 	EXP 	fixCross: autoDraw = True
+260.3319 	DATA 	Mouse:  Left button up, pos=(1087,180)
+262.2145 	EXP 	New trial (rep=18, index=0): None
+262.4806 	EXP 	fixCross: autoDraw = False
+262.4806 	EXP 	fixCross: autoDraw = False
+262.4806 	EXP 	russellsQuad: image = 'Russells-emotion-model.jpg'
+262.4806 	EXP 	russellsQuad: autoDraw = True
+267.8815 	DATA 	Mouse: Left button down, pos=(692,260)
+267.8817 	DATA 	[-0.24814814 -0.25925925]
+267.8974 	EXP 	russellsQuad: autoDraw = False
+267.8974 	EXP 	fixCross: autoDraw = True
+267.9819 	DATA 	Mouse:  Left button up, pos=(692,260)
+269.8815 	EXP 	New trial (rep=19, index=0): None
+270.1309 	EXP 	fixCross: autoDraw = False
+270.1309 	EXP 	fixCross: autoDraw = False
+270.1309 	EXP 	russellsQuad: image = 'Russells-emotion-model.jpg'
+270.1309 	EXP 	russellsQuad: autoDraw = True
+289.4321 	DATA 	Mouse: Left button down, pos=(1024,250)
+289.4323 	DATA 	[ 0.05925926 -0.2685185 ]
+289.4480 	EXP 	russellsQuad: autoDraw = False
+289.4480 	EXP 	fixCross: autoDraw = True
+289.5324 	DATA 	Mouse:  Left button up, pos=(1024,250)
+291.4320 	EXP 	New trial (rep=20, index=0): None
+291.6814 	EXP 	fixCross: autoDraw = False
+291.6814 	EXP 	fixCross: autoDraw = False
+291.6814 	EXP 	russellsQuad: image = 'Russells-emotion-model.jpg'
+291.6814 	EXP 	russellsQuad: autoDraw = True
+307.2659 	DATA 	Mouse: Left button down, pos=(1150,462)
+307.2661 	DATA 	[ 0.17592593 -0.07222223]
+307.2818 	EXP 	russellsQuad: autoDraw = False
+307.2818 	EXP 	fixCross: autoDraw = True
+307.3662 	DATA 	Mouse:  Left button up, pos=(1150,462)
+309.2658 	EXP 	New trial (rep=21, index=0): None
+309.5152 	EXP 	fixCross: autoDraw = False
+309.5152 	EXP 	fixCross: autoDraw = False
+309.5152 	EXP 	russellsQuad: image = 'Russells-emotion-model.jpg'
+309.5152 	EXP 	russellsQuad: autoDraw = True
+318.2662 	DATA 	Mouse: Left button down, pos=(1200,339)
+318.2664 	DATA 	[ 0.22222222 -0.18611111]
+318.2821 	EXP 	russellsQuad: autoDraw = False
+318.2821 	EXP 	fixCross: autoDraw = True
+318.3333 	DATA 	Mouse:  Left button up, pos=(1200,339)
+320.2662 	EXP 	New trial (rep=22, index=0): None
+320.5155 	EXP 	fixCross: autoDraw = False
+320.5155 	EXP 	fixCross: autoDraw = False
+320.5155 	EXP 	russellsQuad: image = 'Russells-emotion-model.jpg'
+320.5155 	EXP 	russellsQuad: autoDraw = True
+322.7993 	DATA 	Mouse: Left button down, pos=(767,404)
+322.7995 	DATA 	[-0.17870371 -0.12592593]
+322.8155 	EXP 	russellsQuad: autoDraw = False
+322.8155 	EXP 	fixCross: autoDraw = True
+322.9003 	DATA 	Mouse:  Left button up, pos=(767,404)
+324.7996 	EXP 	New trial (rep=23, index=0): None
+325.0489 	EXP 	fixCross: autoDraw = False
+325.0489 	EXP 	fixCross: autoDraw = False
+325.0489 	EXP 	russellsQuad: image = 'Russells-emotion-model.jpg'
+325.0489 	EXP 	russellsQuad: autoDraw = True
+329.2829 	DATA 	Mouse: Left button down, pos=(1196,797)
+329.2831 	DATA 	[0.21851853 0.23796296]
+329.2991 	EXP 	russellsQuad: autoDraw = False
+329.2991 	EXP 	fixCross: autoDraw = True
+329.3504 	DATA 	Mouse:  Left button up, pos=(1196,797)
+331.2991 	EXP 	fixCross: autoDraw = False
+331.2991 	EXP 	fixCross: autoDraw = False
+331.2991 	EXP 	goodbyetext: autoDraw = True
+333.2992 	EXP 	goodbyetext: autoDraw = False
+333.2992 	EXP 	goodbyetext: autoDraw = False
+333.4533 	EXP 	window1: mouseVisible = True

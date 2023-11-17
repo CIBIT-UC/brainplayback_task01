@@ -1,0 +1,3 @@
+﻿trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,starttext.started,starttext.stopped,music.id,russellsQuad.started,russellsQuad.stopped,music.started,music.stopped,mouse.x,mouse.y,mouse.leftButton,mouse.midButton,mouse.rightButton,mouse.time,mouse.started,mouse.stopped,fixCross.started,fixCross.stopped,participant,session,date,expName,psychopyVersion,frameRate,
+0,0,0,0,10.828071400057524,None,['/fMRI_stim/music/Q4/MT0011938737.wav'],12.927147400099784,None,12.823424040107056,None,[0.09375],[0.0825],[1],[0],[0],[11.591161899967119],0.016215840121731162,None,24.406177500030026,None,test3,001,2023-01-04_11h08.47.464,musicemotionlatency,2022.1.3,60.12592772195574,
+,,,,,,['/fMRI_stim/music/Q2/MT0004867185.wav'],,,,,,,,,,,,,,,,,,,,,

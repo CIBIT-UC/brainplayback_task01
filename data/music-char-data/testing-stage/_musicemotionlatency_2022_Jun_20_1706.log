@@ -1,0 +1,32 @@
+1.1468 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+5.9018 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7f9100e0aba8>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7f91008d8c50>, multiSample=False, name='window1', numSamples=2, pos=[540.0, 325.0], screen=0, size=array([2400, 1600]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+5.9020 	EXP 	window1: mouseVisible = True
+5.9020 	EXP 	window1: recordFrameIntervals = False
+6.0678 	EXP 	window1: recordFrameIntervals = True
+6.2526 	EXP 	window1: recordFrameIntervals = False
+7.1400 	EXP 	Created starttext = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='starttext', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+7.4544 	EXP 	Created russellsQuad = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='musiclatency/data/Russells-emotion-model.jpg', interpolate=True, mask=None, maskParams=None, name='russellsQuad', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+7.8502 	EXP 	Sound music set volume 1.000
+7.8505 	EXP 	window1: mouseVisible = True
+7.8550 	EXP 	Created musictext = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='musictext', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+7.8588 	EXP 	Created goodbyetext = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='goodbyetext', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Terminado.', units='height', win=Window(...), wrapWidth=1)
+7.8745 	EXP 	starttext: autoDraw = True
+9.8724 	EXP 	Created sequence: random, trialTypes=1, nReps=2, seed=None
+9.8727 	EXP 	New trial (rep=0, index=0): None
+9.8787 	EXP 	New trial (rep=1, index=0): None
+9.8913 	EXP 	starttext: autoDraw = False
+9.8913 	EXP 	musictext: text = ''
+9.8913 	EXP 	russellsQuad: autoDraw = True
+9.8913 	EXP 	musictext: autoDraw = True
+9.8913 	EXP 	musictext: text = 'text'
+9.8913 	EXP 	russellsQuad: autoDraw = False
+9.8913 	EXP 	musictext: autoDraw = False
+9.8913 	EXP 	musictext: text = ''
+9.8913 	EXP 	russellsQuad: autoDraw = True
+9.8913 	EXP 	musictext: autoDraw = True
+9.8913 	EXP 	musictext: text = 'text'
+9.8913 	EXP 	russellsQuad: autoDraw = False
+9.8913 	EXP 	musictext: autoDraw = False
+9.8913 	EXP 	goodbyetext: autoDraw = True
+11.9042 	EXP 	goodbyetext: autoDraw = False
+11.9128 	EXP 	window1: mouseVisible = True

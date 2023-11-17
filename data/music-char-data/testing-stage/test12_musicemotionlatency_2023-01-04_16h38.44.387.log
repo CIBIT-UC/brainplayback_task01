@@ -1,0 +1,65 @@
+11.2079 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+29.5708 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000023D4F763F10>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000023D4F825820>, multiSample=False, name='window1', numSamples=2, pos=(360, 140), screen=0, size=array([1200,  800]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+29.5709 	EXP 	window1: mouseVisible = True
+29.5709 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+29.5709 	EXP 	window1: recordFrameIntervals = False
+29.7371 	EXP 	window1: recordFrameIntervals = True
+29.9204 	EXP 	Screen (0) actual frame rate measured at 60.01Hz
+29.9205 	EXP 	window1: recordFrameIntervals = False
+30.1488 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+32.5805 	EXP 	Created starttext = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='starttext', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+32.5866 	EXP 	Created russellsQuad = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='russellsQuad', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.9, 0.9]), texRes=128.0, units='height', win=Window(...))
+32.6027 	EXP 	Sound music set volume 1.000
+32.6028 	EXP 	window1: mouseVisible = True
+32.6071 	EXP 	Created fixCross = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='fixCross', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+32.6106 	EXP 	Created goodbyetext = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='goodbyetext', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Terminado.', units='height', win=Window(...), wrapWidth=1)
+32.6195 	EXP 	starttext: autoDraw = True
+34.6052 	EXP 	Created sequence: random, trialTypes=1, nReps=24, seed=None
+34.6054 	EXP 	New trial (rep=0, index=0): None
+34.7036 	EXP 	starttext: autoDraw = False
+34.7036 	EXP 	starttext: autoDraw = False
+34.7036 	EXP 	russellsQuad: image = 'Russells-emotion-model.jpg'
+34.7036 	EXP 	russellsQuad: autoDraw = True
+39.6552 	DATA 	Mouse: Left button down, pos=(518,321)
+39.6555 	DATA 	[-0.1025  -0.09875]
+39.6704 	EXP 	russellsQuad: autoDraw = False
+39.6704 	EXP 	fixCross: autoDraw = True
+39.7221 	DATA 	Mouse:  Left button up, pos=(518,321)
+41.6547 	EXP 	New trial (rep=1, index=0): None
+41.7205 	EXP 	fixCross: autoDraw = False
+41.7205 	EXP 	fixCross: autoDraw = False
+41.7205 	EXP 	russellsQuad: image = 'Russells-emotion-model.jpg'
+41.7205 	EXP 	russellsQuad: autoDraw = True
+43.0046 	DATA 	Mouse: Left button down, pos=(493,326)
+43.0048 	DATA 	[-0.13375 -0.0925 ]
+43.0205 	EXP 	russellsQuad: autoDraw = False
+43.0205 	EXP 	fixCross: autoDraw = True
+43.0722 	DATA 	Mouse:  Left button up, pos=(493,326)
+45.0049 	EXP 	New trial (rep=2, index=0): None
+45.0712 	EXP 	fixCross: autoDraw = False
+45.0712 	EXP 	fixCross: autoDraw = False
+45.0712 	EXP 	russellsQuad: image = 'Russells-emotion-model.jpg'
+45.0712 	EXP 	russellsQuad: autoDraw = True
+50.1386 	DATA 	Mouse: Left button down, pos=(444,247)
+50.1388 	DATA 	[-0.195   -0.19125]
+50.1543 	EXP 	russellsQuad: autoDraw = False
+50.1543 	EXP 	fixCross: autoDraw = True
+50.2231 	DATA 	Mouse:  Left button up, pos=(444,247)
+52.1390 	EXP 	New trial (rep=3, index=0): None
+52.1874 	EXP 	fixCross: autoDraw = False
+52.1874 	EXP 	fixCross: autoDraw = False
+52.1874 	EXP 	russellsQuad: image = 'Russells-emotion-model.jpg'
+52.1874 	EXP 	russellsQuad: autoDraw = True
+55.7948 	DATA 	Mouse: Left button down, pos=(450,185)
+55.7951 	DATA 	[-0.1875  -0.26875]
+55.8061 	EXP 	russellsQuad: autoDraw = False
+55.8061 	EXP 	fixCross: autoDraw = True
+55.8737 	DATA 	Mouse:  Left button up, pos=(450,185)
+57.8048 	EXP 	New trial (rep=4, index=0): None
+57.8542 	EXP 	fixCross: autoDraw = False
+57.8542 	EXP 	russellsQuad: image = 'Russells-emotion-model.jpg'
+57.8542 	EXP 	russellsQuad: autoDraw = True
+63.0412 	DATA 	Mouse: Left button down, pos=(971,593)
+63.1061 	DATA 	Mouse:  Left button up, pos=(971,593)
+63.3054 	DATA 	Keypress: escape
+63.9099 	EXP 	window1: mouseVisible = True
