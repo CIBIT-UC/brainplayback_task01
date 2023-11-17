@@ -1,0 +1,91 @@
+<mxfile host="65bd71144e">
+    <diagram name="Copy of Page-1" id="3MOEaoplXEpVyJTFN4SL">
+        <mxGraphModel dx="1162" dy="893" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="RKLRzKLY3t_ddumedZk_-0"/>
+                <mxCell id="RKLRzKLY3t_ddumedZk_-1" parent="RKLRzKLY3t_ddumedZk_-0"/>
+                <mxCell id="1" value="" style="group" vertex="1" connectable="0" parent="RKLRzKLY3t_ddumedZk_-1">
+                    <mxGeometry x="20" y="190" width="790" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="RKLRzKLY3t_ddumedZk_-3" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Ambient sound&lt;br&gt;(12 s)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;labelBackgroundColor=none;fillColor=#757041;strokeColor=none;fontColor=#F1E5BC;fontStyle=0;fontFamily=Cabin;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCabin;container=0;" parent="1" vertex="1">
+                    <mxGeometry x="38.536585365853654" width="211.95121951219508" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="RKLRzKLY3t_ddumedZk_-5" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Ambient sound&lt;br&gt;(12 s)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;labelBackgroundColor=none;fillColor=#757041;strokeColor=none;fontColor=#F1E5BC;fontStyle=0;fontFamily=Cabin;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCabin;container=0;" parent="1" vertex="1">
+                    <mxGeometry x="539.5121951219512" width="211.95121951219508" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="RKLRzKLY3t_ddumedZk_-6" value="" style="edgeStyle=none;html=1;fontFamily=Helvetica;fontSize=14;fontColor=#F1E5BC;" parent="1" source="RKLRzKLY3t_ddumedZk_-7" target="RKLRzKLY3t_ddumedZk_-5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="RKLRzKLY3t_ddumedZk_-7" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;White noise&lt;br style=&quot;&quot;&gt;(12 s)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#2C4D2F;strokeColor=none;fontColor=#F1E5BC;fontStyle=0;fontFamily=Cabin;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCabin;container=0;" parent="1" vertex="1">
+                    <mxGeometry x="289.0243902439024" width="211.95121951219508" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="RKLRzKLY3t_ddumedZk_-2" value="" style="edgeStyle=none;html=1;fontFamily=Helvetica;fontSize=14;fontColor=#F1E5BC;" parent="1" source="RKLRzKLY3t_ddumedZk_-3" target="RKLRzKLY3t_ddumedZk_-7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="_ObKljJm_M5OEr_5kmBN-0" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=#000000;" parent="1" source="RKLRzKLY3t_ddumedZk_-10" target="RKLRzKLY3t_ddumedZk_-3" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint y="120"/>
+                            <mxPoint y="30"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="RKLRzKLY3t_ddumedZk_-10" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Music&lt;br style=&quot;&quot;&gt;(three 12 s excertps of the same quadrant)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#B75C1B;strokeColor=none;fontColor=#F1E5BC;fontStyle=0;fontFamily=Cabin;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCabin;container=0;" parent="1" vertex="1">
+                    <mxGeometry x="125.24390243902438" y="90" width="539.5121951219512" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="RKLRzKLY3t_ddumedZk_-4" value="" style="edgeStyle=none;html=1;fontFamily=Helvetica;fontSize=14;fontColor=#F1E5BC;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="RKLRzKLY3t_ddumedZk_-5" target="RKLRzKLY3t_ddumedZk_-10" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="790" y="30"/>
+                            <mxPoint x="790" y="120"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="jyvU2H36wrv9E_q_9pZs" name="Page-1">
+        <mxGraphModel dx="1324" dy="869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="7" value="" style="edgeStyle=none;html=1;fontFamily=Helvetica;fontSize=10;fontColor=#F1E5BC;" edge="1" parent="1" source="2" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="Ambient sound (12 s)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;labelBackgroundColor=none;fillColor=#757041;strokeColor=none;fontColor=#F1E5BC;fontStyle=0;fontFamily=Cabin;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCabin;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="200" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="edgeStyle=none;html=1;fontFamily=Helvetica;fontSize=10;fontColor=#F1E5BC;" edge="1" parent="1" source="3" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Ambient sound (12 s)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;labelBackgroundColor=none;fillColor=#757041;strokeColor=none;fontColor=#F1E5BC;fontStyle=0;fontFamily=Cabin;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCabin;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="200" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="edgeStyle=none;html=1;fontFamily=Helvetica;fontSize=10;fontColor=#F1E5BC;" edge="1" parent="1" source="4" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="White noise&lt;br&gt;(12 s)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fillColor=#2C4D2F;strokeColor=none;fontColor=#F1E5BC;fontStyle=0;fontFamily=Cabin;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCabin;" vertex="1" parent="1">
+                    <mxGeometry x="180" y="200" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=10;fontColor=#F1E5BC;" edge="1" parent="1" source="5" target="2">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="640" y="220"/>
+                            <mxPoint x="640" y="250"/>
+                            <mxPoint x="50" y="250"/>
+                            <mxPoint x="50" y="220"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" value="&lt;font&gt;2 trials per quadrant&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontFamily=Helvetica;fontColor=#000000;" vertex="1" connectable="0" parent="6">
+                    <mxGeometry x="0.0866" y="-3" relative="1" as="geometry">
+                        <mxPoint y="13" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="Music&lt;br&gt;(three 12 s excertps of the same quadrant)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fillColor=#B75C1B;strokeColor=none;fontColor=#F1E5BC;fontStyle=0;fontFamily=Cabin;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCabin;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="200" width="240" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

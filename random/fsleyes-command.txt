@@ -1,0 +1,31 @@
+
+# create 
+
+cd /home/alexandresayal/Downloads/Results_stability_masks_5classes
+
+fslmaths sub-01_ses-01_task-01_stability_mask_5classes.nii.gz \
+    -add sub-02_ses-01_task-01_stability_mask_5classes.nii.gz \
+    -add sub-03_ses-01_task-01_stability_mask_5classes.nii.gz \
+    -add sub-04_ses-01_task-01_stability_mask_5classes.nii.gz \
+    -add sub-07_ses-01_task-01_stability_mask_5classes.nii.gz \
+    -add sub-08_ses-01_task-01_stability_mask_5classes.nii.gz \
+    -add sub-09_ses-01_task-01_stability_mask_5classes.nii.gz \
+    -add sub-10_ses-01_task-01_stability_mask_5classes.nii.gz \
+    -add sub-11_ses-01_task-01_stability_mask_5classes.nii.gz \
+    -add sub-12_ses-01_task-01_stability_mask_5classes.nii.gz \
+    -add sub-13_ses-01_task-01_stability_mask_5classes.nii.gz \
+    -add sub-14_ses-01_task-01_stability_mask_5classes.nii.gz \
+    -add sub-15_ses-01_task-01_stability_mask_5classes.nii.gz \
+    -add sub-16_ses-01_task-01_stability_mask_5classes.nii.gz \
+    -add sub-17_ses-01_task-01_stability_mask_5classes.nii.gz \
+    -add sub-18_ses-01_task-01_stability_mask_5classes.nii.gz \
+    -add sub-19_ses-01_task-01_stability_mask_5classes.nii.gz \
+    -add sub-20_ses-01_task-01_stability_mask_5classes.nii.gz \
+    sum-mask-N18
+
+# apply mask
+fslmaths sum-mask-N18 -mas brain-mask sum-mask-N18-brain
+
+# visualize
+
+fsleyes --scene ortho --worldLoc -53.654012286511886 -17.738341130878226 8.562113317594466 --displaySpace world --xcentre  0.00000  0.00000 --ycentre  0.00000  0.00000 --zcentre  0.00000  0.00000 --xzoom 100.0 --yzoom 100.0 --zzoom 100.0 --layout horizontal --hideCursor --bgColour 1.0 1.0 1.0 --fgColour 0.0 0.0 0.0 --cursorColour 0.0 1.0 0.0 --showColourBar --colourBarLocation right --colourBarLabelSide bottom-right --colourBarSize 63.0 --labelSize 12 --performance 3 --movieSync /usr/local/fsl/data/standard/MNI152_T1_1mm_brain.nii.gz --name "MNI152_T1_1mm_brain" --overlayType volume --alpha 100.0 --brightness 49.75000000000001 --contrast 49.90029860765409 --cmap greyscale --negativeCmap greyscale --displayRange 0.0 8447.64 --clippingRange 0.0 8447.64 --modulateRange 0.0 8364.0 --gamma 0.0 --cmapResolution 256 --interpolation none --numSteps 100 --blendFactor 0.1 --smoothing 0 --resolution 100 --numInnerSteps 10 --clipMode intersection --volume 0 /home/alexandresayal/Downloads/Results_stability_masks_5classes/sum-mask-N18-brain.nii.gz --name "Overlap (number of subjects)" --overlayType volume --alpha 100.0 --brightness 38.63636363636363 --contrast 47.47113311230898 --cmap blue-lightblue --negativeCmap greyscale --displayRange 1.0 18.0 --clippingRange 1.0 11.11 --modulateRange 0.0 11.0 --gamma 0.0 --cmapResolution 256 --interpolation none --numSteps 100 --blendFactor 0.1 --smoothing 0 --resolution 100 --numInnerSteps 10 --clipMode intersection --volume 0

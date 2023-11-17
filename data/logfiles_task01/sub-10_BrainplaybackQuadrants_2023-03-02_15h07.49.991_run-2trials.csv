@@ -1,0 +1,11 @@
+﻿n,order,
+2.0,0.0, 1.0
+
+extraInfo
+participant,10
+session,2
+trigger,True
+date,2023-03-02_15h07.49.991
+expName,BrainplaybackQuadrants
+psychopyVersion,2022.2.4
+frameRate,59.96534003307118

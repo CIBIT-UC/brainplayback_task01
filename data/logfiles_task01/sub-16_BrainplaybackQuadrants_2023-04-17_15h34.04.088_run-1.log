@@ -1,0 +1,259 @@
+37.3385 	WARNING 	Monitor specification not found. Creating a temporary one...
+37.8790 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1., -1., -1.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001DC3C330D60>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001DC3C6CD640>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+37.8790 	EXP 	window1: mouseVisible = True
+37.8791 	EXP 	window1: mouseVisible = False
+37.8791 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+37.8791 	EXP 	window1: recordFrameIntervals = False
+38.0453 	EXP 	window1: recordFrameIntervals = True
+38.2289 	EXP 	Screen (0) actual frame rate measured at 59.93Hz
+38.2289 	EXP 	window1: recordFrameIntervals = False
+38.3645 	EXP 	Created WelcomeMessage = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='WelcomeMessage', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+38.3653 	EXP 	Created Baseline1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='Baseline1', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+38.4365 	EXP 	Sound Noise set volume 0.800
+38.4375 	EXP 	Created Baseline2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='Baseline2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+38.4481 	EXP 	Sound MusicExcerpt set volume 1.000
+38.4490 	EXP 	Created ISI = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='ISI', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+38.4498 	EXP 	Created Baseline3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='Baseline3', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+38.4572 	EXP 	Created GoodbyeText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='GoodbyeText', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Goodbye!', units='height', win=Window(...), wrapWidth=1)
+38.5022 	EXP 	WelcomeMessage: autoDraw = True
+65.7041 	EXP 	Created sequence: random, trialTypes=1, nReps=2, seed=None
+65.7043 	EXP 	New trial (rep=0, index=0): None
+65.7475 	EXP 	Imported MusicListSelect.csv as conditions, 4 conditions, 1 params
+65.7477 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+65.7479 	EXP 	New trial (rep=0, index=0): OrderedDict([('MusicsSelect', 'MusicListQ3.csv')])
+65.7591 	EXP 	WelcomeMessage: autoDraw = False
+65.7591 	EXP 	Baseline1: autoDraw = True
+77.7137 	EXP 	Sound Noise started
+77.7637 	EXP 	Baseline1: autoDraw = False
+89.7102 	EXP 	Sound Noise stopped
+89.7307 	EXP 	Baseline2: autoDraw = True
+101.7273 	EXP 	Imported MusicListQ3.csv as conditions, 3 conditions, 1 params
+101.7275 	EXP 	Created sequence: random, trialTypes=3, nReps=1, seed=None
+101.7277 	EXP 	New trial (rep=0, index=0): OrderedDict([('musics', 'music\\Q3\\MT0015682649.wav')])
+101.7640 	EXP 	Sound MusicExcerpt started
+101.7654 	EXP 	Baseline1: autoDraw = False
+101.7654 	EXP 	Baseline2: autoDraw = False
+113.2191 	EXP 	ISI: autoDraw = True
+113.2701 	EXP 	Sound MusicExcerpt stopped
+113.7168 	EXP 	New trial (rep=0, index=1): OrderedDict([('musics', 'music\\Q3\\MT0005217073.wav')])
+113.7665 	EXP 	Sound MusicExcerpt started
+113.7531 	EXP 	ISI: autoDraw = False
+125.2154 	EXP 	ISI: autoDraw = True
+125.2893 	EXP 	Sound MusicExcerpt stopped
+125.6998 	EXP 	New trial (rep=0, index=2): OrderedDict([('musics', 'music\\Q3\\MT0030422114.wav')])
+125.7487 	EXP 	Sound MusicExcerpt started
+125.7415 	EXP 	ISI: autoDraw = False
+125.7415 	EXP 	ISI: autoDraw = False
+137.2158 	EXP 	ISI: autoDraw = True
+137.2503 	EXP 	Sound MusicExcerpt stopped
+137.7274 	EXP 	New trial (rep=0, index=1): OrderedDict([('MusicsSelect', 'MusicListQ4.csv')])
+137.7386 	EXP 	ISI: autoDraw = False
+137.7386 	EXP 	ISI: autoDraw = False
+137.7386 	EXP 	Baseline1: autoDraw = True
+149.7162 	EXP 	Sound Noise started
+149.7495 	EXP 	Baseline1: autoDraw = False
+161.7197 	EXP 	Sound Noise reached end of file
+161.7223 	EXP 	Baseline2: autoDraw = True
+173.7331 	EXP 	Imported MusicListQ4.csv as conditions, 3 conditions, 1 params
+173.7339 	EXP 	Created sequence: random, trialTypes=3, nReps=1, seed=None
+173.7344 	EXP 	New trial (rep=0, index=0): OrderedDict([('musics', 'music\\Q4\\MT0030319227.wav')])
+173.7837 	EXP 	Sound MusicExcerpt started
+173.7837 	EXP 	Baseline1: autoDraw = False
+173.7837 	EXP 	Baseline2: autoDraw = False
+185.2175 	EXP 	ISI: autoDraw = True
+185.2894 	EXP 	Sound MusicExcerpt stopped
+185.7019 	EXP 	New trial (rep=0, index=1): OrderedDict([('musics', 'music\\Q4\\MT0033391280.wav')])
+185.7508 	EXP 	Sound MusicExcerpt started
+185.7463 	EXP 	ISI: autoDraw = False
+185.7463 	EXP 	ISI: autoDraw = False
+197.2179 	EXP 	ISI: autoDraw = True
+197.2502 	EXP 	Sound MusicExcerpt stopped
+197.7023 	EXP 	New trial (rep=0, index=2): OrderedDict([('musics', 'music\\Q4\\MT0007064420.wav')])
+197.7512 	EXP 	Sound MusicExcerpt started
+197.7517 	EXP 	ISI: autoDraw = False
+197.7517 	EXP 	ISI: autoDraw = False
+209.2182 	EXP 	ISI: autoDraw = True
+209.2493 	EXP 	Sound MusicExcerpt stopped
+209.7350 	EXP 	New trial (rep=0, index=2): OrderedDict([('MusicsSelect', 'MusicListQ1.csv')])
+209.7458 	EXP 	ISI: autoDraw = False
+209.7458 	EXP 	ISI: autoDraw = False
+209.7458 	EXP 	Baseline1: autoDraw = True
+221.7187 	EXP 	Sound Noise started
+221.7514 	EXP 	Baseline1: autoDraw = False
+233.7199 	EXP 	Sound Noise reached end of file
+233.7237 	EXP 	Baseline2: autoDraw = True
+245.7359 	EXP 	Imported MusicListQ1.csv as conditions, 3 conditions, 1 params
+245.7368 	EXP 	Created sequence: random, trialTypes=3, nReps=1, seed=None
+245.7373 	EXP 	New trial (rep=0, index=0): OrderedDict([('musics', 'music\\Q1\\MT0006747288.wav')])
+245.7862 	EXP 	Sound MusicExcerpt started
+245.7836 	EXP 	Baseline1: autoDraw = False
+245.7836 	EXP 	Baseline2: autoDraw = False
+257.2031 	EXP 	ISI: autoDraw = True
+257.2895 	EXP 	Sound MusicExcerpt stopped
+257.6871 	EXP 	New trial (rep=0, index=1): OrderedDict([('musics', 'music\\Q1\\MT0028495262.wav')])
+257.7362 	EXP 	Sound MusicExcerpt started
+257.7275 	EXP 	ISI: autoDraw = False
+257.7275 	EXP 	ISI: autoDraw = False
+269.2035 	EXP 	ISI: autoDraw = True
+269.2402 	EXP 	Sound MusicExcerpt stopped
+269.6880 	EXP 	New trial (rep=0, index=2): OrderedDict([('musics', 'music\\Q1\\MT0032235381.wav')])
+269.7369 	EXP 	Sound MusicExcerpt started
+269.7274 	EXP 	ISI: autoDraw = False
+269.7274 	EXP 	ISI: autoDraw = False
+281.2040 	EXP 	ISI: autoDraw = True
+281.2396 	EXP 	Sound MusicExcerpt stopped
+281.7284 	EXP 	New trial (rep=0, index=3): OrderedDict([('MusicsSelect', 'MusicListQ2.csv')])
+281.7376 	EXP 	ISI: autoDraw = False
+281.7376 	EXP 	ISI: autoDraw = False
+281.7376 	EXP 	Baseline1: autoDraw = True
+293.7046 	EXP 	Sound Noise started
+293.7379 	EXP 	Baseline1: autoDraw = False
+305.7003 	EXP 	Sound Noise stopped
+305.7049 	EXP 	Baseline2: autoDraw = True
+317.7035 	EXP 	Imported MusicListQ2.csv as conditions, 3 conditions, 1 params
+317.7038 	EXP 	Created sequence: random, trialTypes=3, nReps=1, seed=None
+317.7039 	EXP 	New trial (rep=0, index=0): OrderedDict([('musics', 'music\\Q2\\MT0032957418.wav')])
+317.7386 	EXP 	Sound MusicExcerpt started
+317.7371 	EXP 	Baseline2: autoDraw = False
+317.7371 	EXP 	Baseline1: autoDraw = False
+317.7371 	EXP 	Baseline2: autoDraw = False
+329.2057 	EXP 	ISI: autoDraw = True
+329.2402 	EXP 	Sound MusicExcerpt stopped
+329.6901 	EXP 	New trial (rep=0, index=1): OrderedDict([('musics', 'music\\Q2\\MT0006746691.wav')])
+329.7390 	EXP 	Sound MusicExcerpt started
+329.7333 	EXP 	ISI: autoDraw = False
+329.7333 	EXP 	ISI: autoDraw = False
+341.2061 	EXP 	ISI: autoDraw = True
+341.2403 	EXP 	Sound MusicExcerpt stopped
+341.6891 	EXP 	New trial (rep=0, index=2): OrderedDict([('musics', 'music\\Q2\\MT0028345470.wav')])
+341.7221 	EXP 	Sound MusicExcerpt started
+341.7223 	EXP 	ISI: autoDraw = False
+341.7223 	EXP 	ISI: autoDraw = False
+353.2065 	EXP 	ISI: autoDraw = True
+353.2302 	EXP 	Sound MusicExcerpt stopped
+353.7638 	EXP 	New trial (rep=1, index=0): None
+353.7673 	EXP 	Imported MusicListSelect.csv as conditions, 4 conditions, 1 params
+353.7676 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+353.7677 	EXP 	New trial (rep=0, index=0): OrderedDict([('MusicsSelect', 'MusicListQ2.csv')])
+353.7769 	EXP 	ISI: autoDraw = False
+353.7769 	EXP 	ISI: autoDraw = False
+353.7769 	EXP 	Baseline1: autoDraw = True
+365.7736 	EXP 	Sound Noise started
+365.7903 	EXP 	Baseline1: autoDraw = False
+377.7698 	EXP 	Sound Noise stopped
+377.7741 	EXP 	Baseline2: autoDraw = True
+389.7728 	EXP 	Imported MusicListQ2.csv as conditions, 3 conditions, 1 params
+389.7736 	EXP 	Created sequence: random, trialTypes=3, nReps=1, seed=None
+389.7742 	EXP 	New trial (rep=0, index=0): OrderedDict([('musics', 'music\\Q2\\MT0009421924.wav')])
+389.8245 	EXP 	Sound MusicExcerpt started
+389.8144 	EXP 	Baseline2: autoDraw = False
+389.8144 	EXP 	Baseline1: autoDraw = False
+389.8144 	EXP 	Baseline2: autoDraw = False
+401.2749 	EXP 	ISI: autoDraw = True
+401.3293 	EXP 	Sound MusicExcerpt stopped
+401.7594 	EXP 	New trial (rep=0, index=1): OrderedDict([('musics', 'music\\Q2\\MT0003782002.wav')])
+401.8082 	EXP 	Sound MusicExcerpt started
+401.8068 	EXP 	ISI: autoDraw = False
+401.8068 	EXP 	ISI: autoDraw = False
+413.2753 	EXP 	ISI: autoDraw = True
+413.3098 	EXP 	Sound MusicExcerpt stopped
+413.7599 	EXP 	New trial (rep=0, index=2): OrderedDict([('musics', 'music\\Q2\\MT0013313448.wav')])
+413.8087 	EXP 	Sound MusicExcerpt started
+413.8037 	EXP 	ISI: autoDraw = False
+413.8037 	EXP 	ISI: autoDraw = False
+425.2750 	EXP 	ISI: autoDraw = True
+425.3092 	EXP 	Sound MusicExcerpt stopped
+425.8136 	EXP 	New trial (rep=0, index=1): OrderedDict([('MusicsSelect', 'MusicListQ4.csv')])
+425.8228 	EXP 	ISI: autoDraw = False
+425.8228 	EXP 	ISI: autoDraw = False
+425.8228 	EXP 	Baseline1: autoDraw = True
+437.7762 	EXP 	Sound Noise started
+437.8262 	EXP 	Baseline1: autoDraw = False
+449.7799 	EXP 	Sound Noise reached end of file
+449.7831 	EXP 	Baseline2: autoDraw = True
+461.7935 	EXP 	Imported MusicListQ4.csv as conditions, 3 conditions, 1 params
+461.7946 	EXP 	Created sequence: random, trialTypes=3, nReps=1, seed=None
+461.7951 	EXP 	New trial (rep=0, index=0): OrderedDict([('musics', 'music\\Q4\\MT0011886148.wav')])
+461.8438 	EXP 	Sound MusicExcerpt started
+461.8389 	EXP 	Baseline1: autoDraw = False
+461.8389 	EXP 	Baseline2: autoDraw = False
+473.2775 	EXP 	ISI: autoDraw = True
+473.3495 	EXP 	Sound MusicExcerpt stopped
+473.7619 	EXP 	New trial (rep=0, index=1): OrderedDict([('musics', 'music\\Q4\\MT0002698827.wav')])
+473.8109 	EXP 	Sound MusicExcerpt started
+473.8048 	EXP 	ISI: autoDraw = False
+473.8048 	EXP 	ISI: autoDraw = False
+485.2772 	EXP 	ISI: autoDraw = True
+485.3092 	EXP 	Sound MusicExcerpt stopped
+485.7609 	EXP 	New trial (rep=0, index=2): OrderedDict([('musics', 'music\\Q4\\MT0015706588.wav')])
+485.8106 	EXP 	Sound MusicExcerpt started
+485.8028 	EXP 	ISI: autoDraw = False
+485.8028 	EXP 	ISI: autoDraw = False
+497.2785 	EXP 	ISI: autoDraw = True
+497.3200 	EXP 	Sound MusicExcerpt stopped
+497.8162 	EXP 	New trial (rep=0, index=2): OrderedDict([('MusicsSelect', 'MusicListQ1.csv')])
+497.8268 	EXP 	ISI: autoDraw = False
+497.8268 	EXP 	ISI: autoDraw = False
+497.8268 	EXP 	Baseline1: autoDraw = True
+509.7790 	EXP 	Sound Noise started
+509.8290 	EXP 	Baseline1: autoDraw = False
+521.7627 	EXP 	Baseline2: autoDraw = True
+521.7799 	EXP 	Sound Noise reached end of file
+533.7619 	EXP 	Imported MusicListQ1.csv as conditions, 3 conditions, 1 params
+533.7627 	EXP 	Created sequence: random, trialTypes=3, nReps=1, seed=None
+533.7633 	EXP 	New trial (rep=0, index=0): OrderedDict([('musics', 'music\\Q1\\MT0014576739.wav')])
+533.8132 	EXP 	Sound MusicExcerpt started
+533.8070 	EXP 	Baseline2: autoDraw = False
+533.8070 	EXP 	Baseline1: autoDraw = False
+533.8070 	EXP 	Baseline2: autoDraw = False
+545.2628 	EXP 	ISI: autoDraw = True
+545.3097 	EXP 	Sound MusicExcerpt stopped
+545.7463 	EXP 	New trial (rep=0, index=1): OrderedDict([('musics', 'music\\Q1\\MT0003144898.wav')])
+545.7961 	EXP 	Sound MusicExcerpt started
+545.7895 	EXP 	ISI: autoDraw = False
+545.7895 	EXP 	ISI: autoDraw = False
+557.2638 	EXP 	ISI: autoDraw = True
+557.2998 	EXP 	Sound MusicExcerpt stopped
+557.7483 	EXP 	New trial (rep=0, index=2): OrderedDict([('musics', 'music\\Q1\\MT0010900969.wav')])
+557.7972 	EXP 	Sound MusicExcerpt started
+557.7878 	EXP 	ISI: autoDraw = False
+557.7878 	EXP 	ISI: autoDraw = False
+569.2643 	EXP 	ISI: autoDraw = True
+569.2999 	EXP 	Sound MusicExcerpt stopped
+569.8041 	EXP 	New trial (rep=0, index=3): OrderedDict([('MusicsSelect', 'MusicListQ3.csv')])
+569.8140 	EXP 	ISI: autoDraw = False
+569.8140 	EXP 	ISI: autoDraw = False
+569.8140 	EXP 	Baseline1: autoDraw = True
+581.7647 	EXP 	Sound Noise started
+581.8148 	EXP 	Baseline1: autoDraw = False
+593.7648 	EXP 	Sound Noise reached end of file
+593.7679 	EXP 	Baseline2: autoDraw = True
+605.7815 	EXP 	Imported MusicListQ3.csv as conditions, 3 conditions, 1 params
+605.7823 	EXP 	Created sequence: random, trialTypes=3, nReps=1, seed=None
+605.7828 	EXP 	New trial (rep=0, index=0): OrderedDict([('musics', 'music\\Q3\\MT0011969592.wav')])
+605.8322 	EXP 	Sound MusicExcerpt started
+605.8222 	EXP 	Baseline1: autoDraw = False
+605.8222 	EXP 	Baseline2: autoDraw = False
+617.2660 	EXP 	ISI: autoDraw = True
+617.3395 	EXP 	Sound MusicExcerpt stopped
+617.7505 	EXP 	New trial (rep=0, index=1): OrderedDict([('musics', 'music\\Q3\\MT0008841966.wav')])
+617.7993 	EXP 	Sound MusicExcerpt started
+617.7902 	EXP 	ISI: autoDraw = False
+617.7902 	EXP 	ISI: autoDraw = False
+629.2657 	EXP 	ISI: autoDraw = True
+629.2991 	EXP 	Sound MusicExcerpt stopped
+629.7508 	EXP 	New trial (rep=0, index=2): OrderedDict([('musics', 'music\\Q3\\MT0002142155.wav')])
+629.7997 	EXP 	Sound MusicExcerpt started
+629.7909 	EXP 	ISI: autoDraw = False
+629.7909 	EXP 	ISI: autoDraw = False
+641.2668 	EXP 	ISI: autoDraw = True
+641.3099 	EXP 	Sound MusicExcerpt stopped
+641.8959 	EXP 	ISI: autoDraw = False
+641.8959 	EXP 	ISI: autoDraw = False
+641.8959 	EXP 	Baseline3: autoDraw = True
+665.8678 	EXP 	GoodbyeText: autoDraw = True
+665.9011 	EXP 	Baseline3: autoDraw = False
+666.8678 	EXP 	GoodbyeText: autoDraw = False
+666.8678 	EXP 	Baseline3: autoDraw = False
+666.8678 	EXP 	GoodbyeText: autoDraw = False
+666.8967 	EXP 	window1: mouseVisible = True
