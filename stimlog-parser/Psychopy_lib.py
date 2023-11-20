@@ -1,11 +1,31 @@
-def Psychopy_log_to_BIDS_events_complete(log_fn):
-    
-    
-    import pandas as pd
-    import numpy as np
+import pandas as pd
+import numpy as np
 
-    import os
-    import glob
+import os
+import glob
+
+def Psychopy_log_to_BIDS_events_complete(log_fn):
+    """
+    This function converts a Psychopy log file to a BIDS events file.
+
+    Parameters:
+    log_fn (str): The filename of the Psychopy log file.
+
+    The function performs the following steps:
+    1. Extracts the participant ID and run ID from the filename.
+    2. Reads the log file into a pandas DataFrame.
+    3. Selects a subset of columns related to music selection, noise, and baselines.
+    4. Drops rows with NaN values from the last baseline subset.
+    5. Lists all files in the 'music-char-data' directory.
+    6. Create a pandas DataFrame with columns required by the BIDS standard.
+    7. Reads the music characterization data file for the participant and run.
+
+
+    Note: The function prints out the filename, participant ID, and run ID for verification.
+
+    Returns:
+    None. The function operates in-place and does not return a value.
+    """
     
     #create a new lists by parsing the string using "," delimiter
     head_tail = os.path.split(log_fn)
@@ -76,9 +96,8 @@ def Psychopy_log_to_BIDS_events_complete(log_fn):
     
     if csv_file:
         
-        df_Q = pd.read_csv(os.path.join('..',
-                            'music_characterization_stim', 
-                            'data', 
+        df_Q = pd.read_csv(os.path.join('..','data'
+                            'music-char-data',
                             csv_file[0]))
 
         # Last row NaN.
@@ -173,13 +192,19 @@ def Psychopy_log_to_BIDS_events_complete(log_fn):
 
     return df_bids
 
-
-
 def getQ(row):  
+    """
+    This function extracts the quadrant from the music filename.
+    """
+
     t = row['music.id'].split('/')
     return (f'{t[3]}')
 
 def categorise(row):  
+    """
+    This function categorises the quadrant based on the mouse click position.
+    """
+
     if row['mouse.x'] > 0 and row['mouse.y'] > 0:
         return 'Q1'
     elif row['mouse.x'] < 0 and row['mouse.y'] > 0:
