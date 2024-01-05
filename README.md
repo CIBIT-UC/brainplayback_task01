@@ -28,9 +28,9 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <!-- <a href="https://github.com/CIBIT-UC/brainplayback_task01">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a> -->
+  <a href="https://github.com/CIBIT-UC/brainplayback_task01">
+    <img src="random/logo.png" alt="Logo" width="80" height="80">
+  </a>
 
   <h3 align="center">Brainplayback</h3>
 
@@ -189,7 +189,8 @@ Don't forget to give the project a star! Thanks again!
 ## Contact
 
 Alexandre Sayal - [@AlexandreSayal](https://twitter.com/AlexandreSayal) - alexandre.campos@uc.pt
-Bruno Direito - [@BrunoDireito](https://twitter.com/brunodireito) - bruno.direito@uc.pt
+
+Bruno Direito - [@BrunoDireito](https://twitter.com/bruno_miguel) - bruno.direito@uc.pt
 
 Project Link: [https://github.com/CIBIT-UC/brainplayback_task01](https://github.com/CIBIT-UC/brainplayback_task01)
 
