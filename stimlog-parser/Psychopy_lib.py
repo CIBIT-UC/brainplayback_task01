@@ -61,9 +61,7 @@ def Psychopy_log_to_BIDS_events_complete(log_fn):
     # Remove rows with NaN - nor necessary for this event files.
     df_last_bl=df_last_bl.dropna(how="any")
 
-    full_list = os.listdir(os.path.join('..',
-                    'music_characterization_stim', 
-                    'data'))
+    full_list = os.listdir(os.path.join('..','data','music-char-data'))
 
 
     # list to store files
@@ -96,7 +94,7 @@ def Psychopy_log_to_BIDS_events_complete(log_fn):
     
     if csv_file:
         
-        df_Q = pd.read_csv(os.path.join('..','data'
+        df_Q = pd.read_csv(os.path.join('..','data',
                             'music-char-data',
                             csv_file[0]))
 
