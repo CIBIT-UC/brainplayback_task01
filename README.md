@@ -111,10 +111,6 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
 
 ### Installation
 
@@ -124,7 +120,6 @@ _Below is an example of how you can instruct your audience on installing and set
    ```sh
    git clone https://github.com/CIBIT-UC/brainplayback_task01.git
    ```
-2. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
