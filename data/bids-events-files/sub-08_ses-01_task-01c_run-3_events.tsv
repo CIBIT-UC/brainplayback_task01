@@ -24,8 +24,8 @@ onset	duration	trial_type
 180.0	11.5	Q1_db
 191.97	11.51	Q2_p
 191.97	11.51	Q1_db
-203.95		Q1_p
-203.95		Q1_db
+203.95	11.54	Q1_p
+203.95	11.54	Q1_db
 215.97	11.99	Baseline
 227.95	12.0	Noise
 239.96	12.05	Baseline
