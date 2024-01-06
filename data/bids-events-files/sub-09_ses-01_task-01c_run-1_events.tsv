@@ -4,8 +4,8 @@ onset	duration	trial_type
 23.95	12.05	Baseline
 36.0	11.51	Q1_p
 36.0	11.51	Q1_db
-47.96		Q1_p
-47.96		Q1_db
+47.96	11.5	Q1_p
+47.96	11.5	Q1_db
 59.96	11.51	Q1_p
 59.96	11.51	Q1_db
 71.96	11.99	Baseline
