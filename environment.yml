@@ -9,10 +9,11 @@ dependencies:
   - matplotlib
   - openssl
   - pip
-  - python=3.9.18
+  - python=3.11
   - setuptools
   - pip:
       - nilearn
       - scikit-learn
       - statsmodels
       - statannotations
+      - mni-to-atlas
