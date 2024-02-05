@@ -4,7 +4,10 @@ import numpy as np
 from bids.layout import BIDSLayout
 import nibabel as nib
 
+
+
 # Data management functions
+
 def get_bids_layout(bids_dir, bids_derivatives_dir):
     """
     Get a BIDSLayout object.
@@ -19,7 +22,7 @@ def get_bids_layout(bids_dir, bids_derivatives_dir):
     return layout
 
 
-def get_pp_file(layout, substr, runstr):
+def get_preprocessed_func_file(layout, substr, runstr):
     """
     Get the confounds file from the fMRI preprocessing pipeline.
     Parameters:
@@ -72,7 +75,7 @@ def get_events_file(layout, substr, runstr):
     return events_file
 
 
-def get_mask_file(layout, substr):
+def get_gm_mask_file(layout, substr):
     """
     Get the gray matter mask file.
     Parameters:

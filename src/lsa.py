@@ -73,7 +73,6 @@ def update_designmatrix(df):
 
 
 
-
 def create_lsa_featset(subject, 
                        run, 
                        task = '01', 
@@ -130,7 +129,7 @@ def create_lsa_featset(subject,
     events_df = pd.read_csv(dm.get_events_file(layout, subject, run), sep='\t')
 
     # Resample gray matter mask based on specified threshold
-    gm_mask = img.create_mask_from_segm(dm.get_mask_file(layout, subject), fmri_image, mask_threshold)
+    gm_mask = img.create_mask_from_segm(dm.get_gm_mask_file(layout, subject), fmri_image, mask_threshold)
     gm_mask.to_filename(os.path.join(anat_output_dir, f'sub-{subject}_mask-gm.nii.gz'))
 
     # Select events based on condition suffix
