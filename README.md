@@ -29,6 +29,7 @@
     <br />
     <br />
     <a href="https://github.com/CIBIT-UC/brainplayback_task01/issues">Report Bug or Ask a Question</a>
+    <br />
     <a href="https://www.biorxiv.org/content/10.1101/2024.02.27.582309v2">Preprint at bioRxiv</a>
   </p>
 </div>
