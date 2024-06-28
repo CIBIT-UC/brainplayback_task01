@@ -1,14 +1,4 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/CIBIT-UC/brainplayback_task01/pull/73 -->
 <a name="readme-top"></a>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
-
-
 
 <!-- PROJECT SHIELDS -->
 <!--
@@ -29,7 +19,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/CIBIT-UC/brainplayback_task01">
-    <img src="random/logo.png" alt="Logo" width="80" height="80">
+    <img src="random/cibit_simbolo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Brainplayback</h3>
@@ -38,9 +28,7 @@
     Decoding Music-Evoked Valence and Arousal: Unraveling the Neural Correlates of Music Characteristics through fMRI
     <br />
     <br />
-    <a href="https://github.com/CIBIT-UC/brainplayback_task01/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/CIBIT-UC/brainplayback_task01/issues">Request Feature</a>
+    <a href="https://github.com/CIBIT-UC/brainplayback_task01/issues">Report Bug or Ask a Question</a>
   </p>
 </div>
 
@@ -73,49 +61,25 @@
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
-Text.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-
-### Installation
-
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Clone the repo
-   ```sh
-   git clone https://github.com/CIBIT-UC/brainplayback_task01.git
-   ```
+This is the first task of the project [Brainplayback](
+https://doi.org/10.54499/EXPL/PSI-GER/0948/2021) - "Playback the music of the brain - decoding emotions elicited by music in the human brain". This project aims to unravel the unknown relation between the classification of music excerpts regarding perceived emotions and the neural correlates associated, as measured by functional magnetic resonance imaging (fMRI). Ultimately, we aim to establish the connection between music descriptors and brain activity patterns.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+## Folder structure
 
 - bids: scripts to convert data to BIDS format
 - data: data for the scripts
-- decoding: mvpa scripts
+- decoding: MVPA scripts
 - music-characterization-stim: stimulus for after task
 - music-characterization-analysis: analysis of the music characterization task
 - nilearn: scripts to run nilearn analyses
 - random: random scripts that were used for figures etc
 - stimlog-parser: scripts to parse the stimlogs
-- stimulus: main stimulus in psychopy
+- stimulus: main stimulus in PsychoPy
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -123,25 +87,10 @@ Use this space to show useful examples of how a project can be used. Additional 
 <!-- CONTRIBUTING -->
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions are what make the open-source community, so any contributions are **greatly appreciated**.
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue.
 Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- LICENSE -->
-## License
-
-<!-- Distributed under the MIT License. See `LICENSE.txt` for more information. -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
